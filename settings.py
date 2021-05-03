@@ -11,7 +11,7 @@ ENVS_READY = True
 # Absolute/relative path to video file
 # E.g ./data/videos/sample_traffic_scene.mp4
 if os.getenv('VIDEO'):
-    VIDEO = os.getenv('VIDEO')
+    VIDEO = os.getenv('C:\\Users\\June2\\Documents\\GitHub\\ivy\\data\\Video\\181015_06_FourLevel_16.mp4')
 else:
     print('Path to video file not set.')
     ENVS_READY = False
